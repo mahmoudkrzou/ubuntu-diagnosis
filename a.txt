@@ -1,0 +1,225 @@
+top - 19:57:48 up 1 day,  8:15,  1 user,  load average: 0.03, 0.11, 0.12
+Tasks: 279 total,   1 running, 277 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  0.6 us,  0.6 sy,  0.0 ni, 98.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7280.9 total,   2872.2 free,   1924.8 used,   3102.7 buff/cache     
+MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.   5356.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                                                   
+   3760 mahmoud+  20   0 7182404 288536 147716 S   5.0   3.9   1:34.53 gnome-shell                                                                                                                               
+   5104 mahmoud+  20   0 2625740  78716  64244 S   5.0   1.1   0:04.93 MathWorksServic                                                                                                                           
+      1 root      20   0   26424  16816  11176 S   0.0   0.2   0:04.22 systemd                                                                                                                                   
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd                                                                                                                                  
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_workqueue_release                                                                                                                    
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-rcu_gp                                                                                                                          
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-sync_wq                                                                                                                         
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-kvfree_rcu_reclaim                                                                                                              
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-slub_flushwq                                                                                                                    
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-netns                                                                                                                           
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H                                                                                                                              
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mm_percpu_wq                                                                                                                    
+     14 root      20   0       0      0      0 S   0.0   0.0   0:00.69 ksoftirqd/0                                                                                                                               
+     15 root      20   0       0      0      0 I   0.0   0.0   0:00.83 rcu_preempt                                                                                                                               
+     16 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_exp_par_gp_kthread_worker/0                                                                                                           
+     17 root      20   0       0      0      0 S   0.0   0.0   0:00.01 rcu_exp_gp_kthread_worker                                                                                                                 
+     18 root      rt   0       0      0      0 S   0.0   0.0   0:00.08 migration/0                                                                                                                               
+     19 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kprobe-optimizer                                                                                                                          
+     20 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/0                                                                                                                             
+     21 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0                                                                                                                                   
+     22 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1                                                                                                                                   
+     23 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/1                                                                                                                             
+     24 root      rt   0       0      0      0 S   0.0   0.0   0:00.07 migration/1                                                                                                                               
+     25 root      20   0       0      0      0 S   0.0   0.0   0:00.09 ksoftirqd/1                                                                                                                               
+     27 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/1:0H-kblockd                                                                                                                      
+     28 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/2                                                                                                                                   
+     29 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/2                                                                                                                             
+     30 root      rt   0       0      0      0 S   0.0   0.0   0:00.07 migration/2                                                                                                                               
+     31 root      20   0       0      0      0 S   0.0   0.0   0:00.10 ksoftirqd/2                                                                                                                               
+     33 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/2:0H-kblockd                                                                                                                      
+     34 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/3                                                                                                                                   
+     35 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/3                                                                                                                             
+     36 root      rt   0       0      0      0 S   0.0   0.0   0:00.06 migration/3                                                                                                                               
+     37 root      20   0       0      0      0 S   0.0   0.0   0:00.09 ksoftirqd/3                                                                                                                               
+     39 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/3:0H-kblockd                                                                                                                      
+     40 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/4                                                                                                                                   
+     41 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/4                                                                                                                             
+     42 root      rt   0       0      0      0 S   0.0   0.0   0:00.05 migration/4                                                                                                                               
+     43 root      20   0       0      0      0 S   0.0   0.0   0:00.08 ksoftirqd/4                                                                                                                               
+     45 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/4:0H-kblockd                                                                                                                      
+     46 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/5                                                                                                                                   
+     47 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/5                                                                                                                             
+     48 root      rt   0       0      0      0 S   0.0   0.0   0:00.05 migration/5                                                                                                                               
+     49 root      20   0       0      0      0 S   0.0   0.0   0:00.06 ksoftirqd/5                                                                                                                               
+     51 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/5:0H-kblockd                                                                                                                      
+     52 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/6                                                                                                                                   
+     53 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/6                                                                                                                             
+     54 root      rt   0       0      0      0 S   0.0   0.0   0:00.04 migration/6                                                                                                                               
+mahmoudkarzou@mahmoudkarzou:~/Desktop$ ps aux --sort=-%cpu | head -15
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mahmoud+   12016  0.5  1.1 3971256 83216 ?       Sl   19:40   0:06 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+mahmoud+   15564  0.4  1.5 1383504 118424 ?      Sl   19:49   0:02 ptyxis --new-window --working-directory /home/mahmoudkarzou/Desktop
+root       16836  0.1  0.0      0     0 ?        I<   19:55   0:00 [kworker/u33:1-i915_flip]
+mahmoud+    3760  0.0  3.8 7182412 288536 ?      Ssl  Oct06   1:35 /usr/bin/gnome-shell --mode=ubuntu
+mahmoud+   16480  0.0  0.1  14292  8748 pts/0    Ss   19:52   0:00 /usr/bin/bash
+root       15552  0.0  0.0      0     0 ?        I    19:49   0:00 [kworker/2:0-mm_percpu_wq]
+root       16373  0.0  0.0      0     0 ?        I    19:50   0:00 [kworker/3:1-events]
+root       14485  0.0  0.0      0     0 ?        I    19:45   0:00 [kworker/6:0-mm_percpu_wq]
+root       15790  0.0  0.0      0     0 ?        I    19:50   0:00 [kworker/7:1-i915-unordered]
+root          80  0.0  0.0      0     0 ?        S    Oct06   0:17 [irq/9-acpi]
+root       14393  0.0  0.0      0     0 ?        I    19:44   0:00 [kworker/3:0-i915-unordered]
+mahmoud+   16427  0.0  0.1 240028  7848 ?        Ssl  19:51   0:00 /usr/libexec/ptyxis-agent --socket-fd=3 --rlimit-nofile=1024
+root       13784  0.0  0.0      0     0 ?        I    19:43   0:00 [kworker/2:2-events]
+mahmoud+    3983  0.0  3.8 5615780 285740 ?      Sl   Oct06   0:09 /home/mahmoudkarzou/.MathWorks/ServiceHost/-mw_shared_installs/v2026.10.1.1/bin/glnxa64/MathWorksServiceHost service --realm-id companion@prod@production
+mahmoudkarzou@mahmoudkarzou:~/Desktop$ ps aux --sort=-%mem | head -15
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mahmoud+    3760  0.0  3.8 7182348 288600 ?      Ssl  Oct06   1:35 /usr/bin/gnome-shell --mode=ubuntu
+mahmoud+    3983  0.0  3.8 5615780 285740 ?      Sl   Oct06   0:09 /home/mahmoudkarzou/.MathWorks/ServiceHost/-mw_shared_installs/v2026.10.1.1/bin/glnxa64/MathWorksServiceHost service --realm-id companion@prod@production
+mahmoud+   15564  0.5  1.5 1382472 118424 ?      Sl   19:49   0:02 ptyxis --new-window --working-directory /home/mahmoudkarzou/Desktop
+mahmoud+    4597  0.0  1.3 1027716 99712 ?       Sl   Oct06   0:00 /usr/libexec/mutter-x11-frames
+mahmoud+    3718  0.0  1.2 1204268 93952 ?       SLsl Oct06   0:00 /usr/libexec/gnome-remote-desktop-daemon
+root        2959  0.0  1.1 2321840 86304 ?       Ssl  Oct06   0:00 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+mahmoud+   12016  0.5  1.1 3971256 83216 ?       Sl   19:40   0:06 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+mahmoud+    4134  0.0  1.1 523108 82800 ?        Sl   Oct06   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.JNDYW3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients -enable-ei-portal
+mahmoud+    5104  0.0  1.0 2625740 78720 ?       Sl   Oct06   0:05 /home/mahmoudkarzou/.MathWorks/ServiceHost/-mw_shared_installs/v2026.10.1.1/bin/glnxa64/MathWorksServiceHost-Monitor --client-id 3983 --realm-id companion@prod@production --lifetime-token 53 -1
+mahmoud+    3905  0.0  0.9 994196 71144 ?        Sl   Oct06   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+mahmoud+    5368  0.0  0.9 1091700 68560 ?       Sl   Oct06   0:00 /usr/bin/gnome-calendar --gapplication-service
+mahmoud+    4639  0.0  0.9 524060 67972 ?        Sl   Oct06   0:00 /usr/libexec/ibus-x11
+mahmoud+    4000  0.0  0.7 144016 54304 ?        Sl   Oct06   0:00 /tmp/.mount_RemotebiKnHa/usr/lib/remotemouse/remotemouse.bin --no-browser
+mahmoud+    3909  0.0  0.6 2254916 50560 ?       Sl   Oct06   0:01 /usr/bin/anydesk --tray
+mahmoudkarzou@mahmoudkarzou:~/Desktop$ systemctl --failed
+  UNIT LOAD ACTIVE SUB DESCRIPTION
+
+0 loaded units listed.
+mahmoudkarzou@mahmoudkarzou:~/Desktop$ journalctl -p 3 -b --no-pager | tail -50
+Oct 06 11:42:45 mahmoudkarzou kernel: x86/cpu: SGX disabled or unsupported by BIOS.
+Oct 06 11:42:48 mahmoudkarzou kernel: Bluetooth: hci0: Failed to send firmware data (-71)
+Oct 06 11:42:48 mahmoudkarzou kernel: Bluetooth: hci0: sending frame failed (-19)
+Oct 06 11:42:48 mahmoudkarzou kernel: Bluetooth: hci0: FW download error recovery failed (-19)
+Oct 06 11:42:48 mahmoudkarzou kernel: Bluetooth: hci0: sending frame failed (-19)
+Oct 06 11:42:48 mahmoudkarzou kernel: Bluetooth: hci0: Reading supported features failed (-19)
+Oct 06 11:43:37 mahmoudkarzou gdm-password][3275]: gkr-pam: unable to locate daemon control file
+Oct 06 11:43:39 mahmoudkarzou systemd[3390]: Failed to start app-gnome-ubuntu\x2dreport\x2don\x2dupgrade-4026.scope - Application launched by gnome-session-service.
+Oct 06 11:45:37 mahmoudkarzou systemd[3390]: Failed to start gnome-terminal-server.service - GNOME Terminal Server.
+Oct 06 12:05:28 mahmoudkarzou systemd[3390]: Failed to start gnome-terminal-server.service - GNOME Terminal Server.
+Oct 06 12:07:20 mahmoudkarzou systemd[3390]: Failed to start snap.firmware-updater.firmware-updater-app.service - Service for snap application firmware-updater.firmware-updater-app.
+Oct 07 06:33:18 mahmoudkarzou kernel: DMAR: DRHD: handling fault status reg 2
+Oct 07 06:33:18 mahmoudkarzou kernel: DMAR: [INTR-REMAP] Request device [f0:1f.0] fault index 0x50e5 [fault reason 0x25] Blocked a compatibility format interrupt request
+Oct 07 09:36:02 mahmoudkarzou kernel: DMAR: DRHD: handling fault status reg 2
+Oct 07 09:36:02 mahmoudkarzou kernel: DMAR: [INTR-REMAP] Request device [f0:1f.0] fault index 0x50c5 [fault reason 0x25] Blocked a compatibility format interrupt request
+Oct 07 19:43:26 mahmoudkarzou systemd[3390]: Failed to start gnome-terminal-server.service - GNOME Terminal Server.
+Oct 07 19:43:58 mahmoudkarzou systemd[3390]: Failed to start snap.firmware-updater.firmware-updater-app.service - Service for snap application firmware-updater.firmware-updater-app.
+Oct 07 19:51:58 mahmoudkarzou systemd[3390]: Failed to start gnome-terminal-server.service - GNOME Terminal Server.
+mahmoudkarzou@mahmoudkarzou:~/Desktop$ sudo apt upgrade 
+[sudo: authenticate] Password:     
+The following packages were automatically installed and are no longer required:
+  comerr-dev                    libkadm5srv-mit12              libqt5printsupport5t64                 ros-jazzy-ament-xmllint                           ros-jazzy-rmw-dds-common
+  gdal-data                     libkdb5-10t64                  libqt5sql5t64                          ros-jazzy-angles                                  ros-jazzy-rmw-fastrtps-cpp
+  gdal-plugins                  libkmlbase1t64                 libqt5test5t64                         ros-jazzy-camera-calibration-parsers              ros-jazzy-rmw-fastrtps-shared-cpp
+  icoutils                      libkmldom1t64                  libqt5xml5t64                          ros-jazzy-camera-info-manager                     ros-jazzy-rmw-implementation
+  krb5-multidev                 libkmlengine1t64               librav1e0                              ros-jazzy-class-loader                            ros-jazzy-rmw-implementation-cmake
+  libadios2-mpi-auxiliary-2.11  libkrb5-dev                    libraw1394-dev                         ros-jazzy-common-interfaces                       ros-jazzy-robot-state-publisher
+  libadios2-mpi-c++-2.11        libldap-dev                    librdmacm1t64                          ros-jazzy-composition                             ros-jazzy-ros-base
+  libadios2-mpi-c-2.11          libleptonica6                  librtmp-dev                            ros-jazzy-composition-interfaces                  ros-jazzy-ros-core
+  libadios2-mpi-core-2.11       liblerc-dev                    librttopo1                             ros-jazzy-console-bridge-vendor                   ros-jazzy-ros-environment
+  libadios2-mpi-plugins         liblttng-ctl0t64               libsharpyuv-dev                        ros-jazzy-demo-nodes-cpp                          ros-jazzy-ros2action
+  libaec0                       liblttng-ust-dev               libsocket++1                           ros-jazzy-demo-nodes-cpp-native                   ros-jazzy-ros2bag
+  libarmadillo12                liblttng-ust-python-agent1t64  libspatialite8t64                      ros-jazzy-demo-nodes-py                           ros-jazzy-ros2cli
+  libarmadillo15                liblz4-dev                     libspdlog-dev                          ros-jazzy-depthimage-to-laserscan                 ros-jazzy-ros2cli-common-extensions
+  libarpack2t64                 liblzma-dev                    libspdlog1.12                          ros-jazzy-diagnostic-msgs                         ros-jazzy-ros2component
+  libassimp-dev                 libminizip1t64                 libspdlog1.15                          ros-jazzy-dummy-map-server                        ros-jazzy-ros2doctor
+  libassimp5                    libmunge2                      libsqlite3-dev                         ros-jazzy-dummy-robot-bringup                     ros-jazzy-ros2interface
+  libassimp6                    libmuparser2v5                 libssh-gcrypt-4                        ros-jazzy-dummy-sensors                           ros-jazzy-ros2launch
+  libavcodec-dev                libmysqlclient21               libssh2-1-dev                          ros-jazzy-eigen3-cmake-module                     ros-jazzy-ros2lifecycle
+  libavcodec60                  libmysqlclient24               libssl-dev                             ros-jazzy-example-interfaces                      ros-jazzy-ros2multicast
+  libavformat-dev               libnetcdf19t64                 libsuperlu6                            ros-jazzy-examples-rclcpp-minimal-action-client   ros-jazzy-ros2node
+  libavformat60                 libnetcdf22                    libsuperlu7                            ros-jazzy-examples-rclcpp-minimal-action-server   ros-jazzy-ros2param
+  libavutil-dev                 libnghttp2-dev                 libsvtav1enc1d1                        ros-jazzy-examples-rclcpp-minimal-client          ros-jazzy-ros2pkg
+  libavutil58                   libodbcinst2                   libswresample-dev                      ros-jazzy-examples-rclcpp-minimal-composition     ros-jazzy-ros2plugin
+  libblosc1                     libogdi4.1                     libswresample4                         ros-jazzy-examples-rclcpp-minimal-publisher       ros-jazzy-ros2run
+  libblosc2-7                   libopenblas0                   libswscale-dev                         ros-jazzy-examples-rclcpp-minimal-service         ros-jazzy-ros2service
+  libbluray2                    libopencv-calib3d-dev          libswscale7                            ros-jazzy-examples-rclcpp-minimal-subscriber      ros-jazzy-ros2topic
+  libbrotli-dev                 libopencv-calib3d406t64        libsz2                                 ros-jazzy-examples-rclcpp-minimal-timer           ros-jazzy-rosbag2
+  libbullet-dev                 libopencv-calib3d410           libtasn1-6-dev                         ros-jazzy-examples-rclcpp-multithreaded-executor  ros-jazzy-rosbag2-compression
+  libbullet3.24t64              libopencv-contrib-dev          libtesseract5                          ros-jazzy-examples-rclpy-executors                ros-jazzy-rosbag2-compression-zstd
+  libbz2-dev                    libopencv-contrib410           libtheora0                             ros-jazzy-examples-rclpy-minimal-action-client    ros-jazzy-rosbag2-cpp
+  libcfitsio10t64               libopencv-core-dev             libtiff-dev                            ros-jazzy-examples-rclpy-minimal-action-server    ros-jazzy-rosbag2-interfaces
+  libcharls2                    libopencv-core406t64           libtiffxx6                             ros-jazzy-examples-rclpy-minimal-client           ros-jazzy-rosbag2-py
+  libconsole-bridge-dev         libopencv-core410              libtinyxml2-10                         ros-jazzy-examples-rclpy-minimal-publisher        ros-jazzy-rosbag2-storage
+  libconsole-bridge1.0          libopencv-dev                  libtinyxml2-dev                        ros-jazzy-examples-rclpy-minimal-service          ros-jazzy-rosbag2-storage-default-plugins
+  libcurl4-openssl-dev          libopencv-dnn-dev              libucc1                                ros-jazzy-examples-rclpy-minimal-subscriber       ros-jazzy-rosbag2-storage-mcap
+  libdc1394-dev                 libopencv-dnn410               libudfread0                            ros-jazzy-fastrtps                                ros-jazzy-rosbag2-storage-sqlite3
+  libdeflate-dev                libopencv-features2d-dev       libunbound8                            ros-jazzy-foonathan-memory-vendor                 ros-jazzy-rosbag2-transport
+  libdraco8                     libopencv-features2d406t64     liburcu-dev                            ros-jazzy-geometry2                               ros-jazzy-rosgraph-msgs
+  libdraco9                     libopencv-features2d410        liburiparser1                          ros-jazzy-gz-cmake-vendor                         ros-jazzy-rosidl-core-generators
+  libegl-dev                    libopencv-flann-dev            libvpx9                                ros-jazzy-gz-math-vendor                          ros-jazzy-rosidl-default-generators
+  libeigen3-dev                 libopencv-flann406t64          libvtk9.5                              ros-jazzy-gz-utils-vendor                         ros-jazzy-rosidl-dynamic-typesupport-fastrtps
+  libevent-2.1-7t64             libopencv-flann410             libvulkan-dev                          ros-jazzy-image-geometry                          ros-jazzy-rosidl-generator-rs
+  libevent-pthreads-2.1-7t64    libopencv-highgui-dev          libwebp-dev                            ros-jazzy-image-tools                             ros-jazzy-rosidl-runtime-py
+  libexif-dev                   libopencv-highgui406t64        libwebpdecoder3                        ros-jazzy-image-transport                         ros-jazzy-rttest
+  libfabric1                    libopencv-highgui410           libx264-164                            ros-jazzy-interactive-markers                     ros-jazzy-rviz-assimp-vendor
+  libfmt-dev                    libopencv-imgcodecs-dev        libx265-199                            ros-jazzy-intra-process-demo                      ros-jazzy-rviz-common
+  libfmt10                      libopencv-imgcodecs406t64      libxaw7-dev                            ros-jazzy-kdl-parser                              ros-jazzy-rviz-default-plugins
+  libfmt9                       libopencv-imgcodecs410         libxerces-c3.2t64                      ros-jazzy-keyboard-handler                        ros-jazzy-rviz-ogre-vendor
+  libfreetype-dev               libopencv-imgproc-dev          libxext-dev                            ros-jazzy-laser-geometry                          ros-jazzy-rviz-rendering
+  libfreexl1                    libopencv-imgproc406t64        libxml2                                ros-jazzy-launch                                  ros-jazzy-rviz2
+  libfyba0t64                   libopencv-imgproc410           libxmu-dev                             ros-jazzy-launch-ros                              ros-jazzy-sensor-msgs
+  libgbinder                    libopencv-ml-dev               libxmu-headers                         ros-jazzy-launch-testing                          ros-jazzy-sensor-msgs-py
+  libgdal34t64                  libopencv-ml410                libxpm-dev                             ros-jazzy-launch-testing-ament-cmake              ros-jazzy-shape-msgs
+  libgdal38                     libopencv-objdetect-dev        libxrandr-dev                          ros-jazzy-launch-testing-ros                      ros-jazzy-spdlog-vendor
+  libgdcm-dev                   libopencv-objdetect410         libxrender-dev                         ros-jazzy-launch-xml                              ros-jazzy-sqlite3-vendor
+  libgdcm3.0t64                 libopencv-photo-dev            libxxhash-dev                          ros-jazzy-launch-yaml                             ros-jazzy-sros2
+  libgeos-c1t64                 libopencv-photo410             libyaml-cpp-dev                        ros-jazzy-libcurl-vendor                          ros-jazzy-sros2-cmake
+  libgeos3.14.1                 libopencv-shape-dev            libyaml-cpp0.8                         ros-jazzy-liblz4-vendor                           ros-jazzy-statistics-msgs
+  libgeotiff5                   libopencv-shape410             libyaml-dev                            ros-jazzy-libstatistics-collector                 ros-jazzy-std-srvs
+  libgl1-mesa-dev               libopencv-stitching-dev        libzfp1t64                             ros-jazzy-libyaml-vendor                          ros-jazzy-stereo-msgs
+  libgl2ps1.4                   libopencv-stitching410         libzstd-dev                            ros-jazzy-lifecycle                               ros-jazzy-tango-icons-vendor
+  libgles-dev                   libopencv-superres-dev         lttng-tools                            ros-jazzy-lifecycle-msgs                          ros-jazzy-teleop-twist-keyboard
+  libglew-dev                   libopencv-superres410          mysql-common                           ros-jazzy-logging-demo                            ros-jazzy-tf2
+  libglew2.2                    libopencv-video-dev            nettle-dev                             ros-jazzy-map-msgs                                ros-jazzy-tf2-bullet
+  libglibutil                   libopencv-video410             pkg-config                             ros-jazzy-mcap-vendor                             ros-jazzy-tf2-eigen
+  libglu1-mesa-dev              libopencv-videoio-dev          pkgconf                                ros-jazzy-message-filters                         ros-jazzy-tf2-eigen-kdl
+  libglvnd-core-dev             libopencv-videoio406t64        pkgconf-bin                            ros-jazzy-nav-msgs                                ros-jazzy-tf2-geometry-msgs
+  libglvnd-dev                  libopencv-videoio410           proj-data                              ros-jazzy-orocos-kdl-vendor                       ros-jazzy-tf2-kdl
+  libgmp-dev                    libopencv-videostab-dev        pybind11-dev                           ros-jazzy-osrf-pycommon                           ros-jazzy-tf2-msgs
+  libgmpxx4ldbl                 libopencv-videostab410         python3-deprecated                     ros-jazzy-pcl-msgs                                ros-jazzy-tf2-py
+  libgnutls-dane0t64            libopencv-viz-dev              python3-natsort                        ros-jazzy-pendulum-control                        ros-jazzy-tf2-ros
+  libgnutls-openssl27t64        libopencv-viz410               python3-pykdl                          ros-jazzy-pendulum-msgs                           ros-jazzy-tf2-ros-py
+  libgnutls28-dev               libopenexr-dev                 python3-wrapt                          ros-jazzy-pluginlib                               ros-jazzy-tf2-sensor-msgs
+  libgphoto2-dev                libopengl-dev                  qt5-qmake                              ros-jazzy-point-cloud-transport                   ros-jazzy-tf2-tools
+  libgssrpc4t64                 libopenmpi40                   qt5-qmake-bin                          ros-jazzy-pybind11-vendor                         ros-jazzy-tinyxml2-vendor
+  libhdf4-0                     liborocos-kdl-dev              qtbase5-dev                            ros-jazzy-python-orocos-kdl-vendor                ros-jazzy-tlsf
+  libhdf4-0-alt                 liborocos-kdl1.5               qtbase5-dev-tools                      ros-jazzy-quality-of-service-demo-cpp             ros-jazzy-tlsf-cpp
+  libhdf5-103-1t64              libp11-kit-dev                 qtchooser                              ros-jazzy-quality-of-service-demo-py              ros-jazzy-topic-monitor
+  libhdf5-310                   libpkgconf7                    ros-jazzy-action-tutorials-cpp         ros-jazzy-rcl                                     ros-jazzy-tracetools
+  libhdf5-hl-100t64             libpmix2t64                    ros-jazzy-action-tutorials-interfaces  ros-jazzy-rcl-action                              ros-jazzy-trajectory-msgs
+  libhdf5-hl-310                libpng-dev                     ros-jazzy-action-tutorials-py          ros-jazzy-rcl-interfaces                          ros-jazzy-turtlesim
+  libhdf5-openmpi-310           libpoppler134                  ros-jazzy-actionlib-msgs               ros-jazzy-rcl-lifecycle                           ros-jazzy-type-description-interfaces
+  libicu74                      libpq5                         ros-jazzy-ament-cmake-auto             ros-jazzy-rcl-logging-interface                   ros-jazzy-urdf
+  libidn2-dev                   libproj25                      ros-jazzy-ament-cmake-copyright        ros-jazzy-rcl-logging-spdlog                      ros-jazzy-urdf-parser-plugin
+  libimath-dev                  libpsl-dev                     ros-jazzy-ament-cmake-lint-cmake       ros-jazzy-rcl-yaml-param-parser                   ros-jazzy-urdfdom
+  libjbig-dev                   libpsm2-2                      ros-jazzy-ament-cmake-xmllint          ros-jazzy-rclcpp                                  ros-jazzy-urdfdom-headers
+  libjpeg-dev                   libpugixml-dev                 ros-jazzy-ament-copyright              ros-jazzy-rclcpp-action                           ros-jazzy-visualization-msgs
+  libjpeg-turbo8-dev            libpugixml1v5                  ros-jazzy-ament-index-cpp              ros-jazzy-rclcpp-components                       ros-jazzy-yaml-cpp-vendor
+  libjpeg8-dev                  libqhull-r8.0                  ros-jazzy-ament-lint-auto              ros-jazzy-rclcpp-lifecycle                        ros-jazzy-zstd-vendor
+  libjxl0.7                     libqt5concurrent5t64           ros-jazzy-ament-lint-cmake             ros-jazzy-rclpy                                   tango-icon-theme
+  libkadm5clnt-mit12            libqt5opengl5t64               ros-jazzy-ament-lint-common            ros-jazzy-resource-retriever                      unixodbc-common
+Use 'sudo apt autoremove' to remove them.
+
+Upgrading:
+  google-chrome-stable
+
+Summary:
+  Upgrading: 1, Installing: 0, Removing: 0, Not Upgrading: 0
+  Download size: 142 MB
+  Freed space: 5,927 kB
+
+Continue? [Y/n] y
+Get:1 https://dl.google.com/linux/chrome-stable/deb stable/main amd64 google-chrome-stable amd64 154.0.8037.97-1 [142 MB]
+Fetched 142 MB in 36s (3,938 kB/s)                                                                                                                                                                              
+(Reading database… 296910 files and directories currently installed.)
+Preparing to unpack …/google-chrome-stable_154.0.8037.97-1_amd64.deb…
+Unpacking google-chrome-stable (154.0.8037.97-1) over (154.0.8037.92-1)…
+Setting up google-chrome-stable (154.0.8037.97-1)…
+Processing triggers for gnome-menus (3.38.1-1ubuntu1)…
+Processing triggers for man-db (2.13.1-1build1)…
+Processing triggers for desktop-file-utils (0.28-1build1)…
+mahmoudkarzou@mahmoudkarzou:~/Desktop$
