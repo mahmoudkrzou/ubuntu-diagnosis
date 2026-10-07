@@ -223,3 +223,90 @@ Processing triggers for gnome-menus (3.38.1-1ubuntu1)…
 Processing triggers for man-db (2.13.1-1build1)…
 Processing triggers for desktop-file-utils (0.28-1build1)…
 mahmoudkarzou@mahmoudkarzou:~/Desktop$
+==KERNEL==
+7.0.0-38-generic
+
+==GPU==
+00:02.0 VGA compatible controller [0300]: Intel Corporation Kaby Lake-R GT2 [UHD Graphics 620] [8086:5917] (rev 07)
+	DeviceName:  Onboard IGD
+	Subsystem: Dell Device [1028:0816]
+	Kernel driver in use: i915
+
+==SESSION==
+wayland
+
+==GRAPHICS LOG==
+Oct 06 11:42:45 mahmoudkarzou kernel:   zhaoxin   Shanghai  
+Oct 06 11:42:45 mahmoudkarzou kernel: ACPI: DMAR 0x00000000CA27B948 0000F0 (v01 INTEL  EDK2     00000001 INTL 00000001)
+Oct 06 11:42:45 mahmoudkarzou kernel: ACPI: Reserving DMAR table memory at [mem 0xca27b948-0xca27ba37]
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: Host address width 39
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: DRHD base: 0x000000fed90000 flags: 0x0
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: dmar0: reg_base_addr fed90000 ver 1:0 cap 1c0000c40660462 ecap 19e2ff0505e
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: DRHD base: 0x000000fed91000 flags: 0x1
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: dmar1: reg_base_addr fed91000 ver 1:0 cap d2008c40660462 ecap f050da
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: RMRR base: 0x000000c9f5b000 end: 0x000000c9f7afff
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: RMRR base: 0x000000cd000000 end: 0x000000cf7fffff
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: ANDD device: 1 name: \_SB.PCI0.I2C0
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: ANDD device: 2 name: \_SB.PCI0.I2C1
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR-IR: IOAPIC id 2 under DRHD base  0xfed91000 IOMMU 1
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR-IR: HPET id 0 under DRHD base 0xfed91000
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR-IR: Queued invalidation will be enabled to support x2apic and Intr-remapping.
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR-IR: Enabled IRQ remapping in x2apic mode
+Oct 06 11:42:45 mahmoudkarzou kernel: pid_max: default: 32768 minimum: 301
+Oct 06 11:42:45 mahmoudkarzou kernel: pci 0000:00:02.0: DMAR: Disabling IOMMU for graphics on this chipset
+Oct 06 11:42:45 mahmoudkarzou kernel: iommu: Default domain type: Translated
+Oct 06 11:42:45 mahmoudkarzou kernel: NetLabel:  unlabeled traffic allowed by default
+Oct 06 11:42:45 mahmoudkarzou kernel: PCI: CLS 0 bytes, default 64
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: ACPI device "device:6a" under DMAR at fed91000 as 00:15.0
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: ACPI device "device:6b" under DMAR at fed91000 as 00:15.1
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: No ATSR found
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: No SATC found
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: dmar1: Using Queued invalidation
+Oct 06 11:42:45 mahmoudkarzou kernel: DMAR: Intel(R) Virtualization Technology for Directed I/O
+Oct 06 11:42:45 mahmoudkarzou kernel: ACPI: bus type drm_connector registered
+Oct 06 11:42:45 mahmoudkarzou kernel: simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+Oct 06 11:42:45 mahmoudkarzou kernel: [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+Oct 06 11:42:45 mahmoudkarzou kernel: simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+Oct 06 11:42:45 mahmoudkarzou kernel: nvme nvme0: 8/0/0 default/read/poll queues
+Oct 06 11:42:45 mahmoudkarzou systemd[1]: Queued start job for default target graphical.target.
+Oct 06 11:42:45 mahmoudkarzou systemd[1]: modprobe@drm.service - Load Kernel Module drm skipped, unmet condition check ConditionKernelModuleLoaded=!drm
+Oct 06 11:42:46 mahmoudkarzou kernel: loop0: detected capacity change from 0 to 3177528
+Oct 06 11:42:46 mahmoudkarzou kernel: loop1: detected capacity change from 0 to 3237960
+Oct 06 11:42:46 mahmoudkarzou kernel: loop2: detected capacity change from 0 to 8
+Oct 06 11:42:46 mahmoudkarzou kernel: loop3: detected capacity change from 0 to 113672
+Oct 06 11:42:46 mahmoudkarzou kernel: loop4: detected capacity change from 0 to 113640
+Oct 06 11:42:46 mahmoudkarzou kernel: loop5: detected capacity change from 0 to 130632
+Oct 06 11:42:46 mahmoudkarzou kernel: loop6: detected capacity change from 0 to 130624
+Oct 06 11:42:46 mahmoudkarzou kernel: loop7: detected capacity change from 0 to 151512
+Oct 06 11:42:46 mahmoudkarzou kernel: loop9: detected capacity change from 0 to 136816
+Oct 06 11:42:46 mahmoudkarzou kernel: loop8: detected capacity change from 0 to 151536
+Oct 06 11:42:47 mahmoudkarzou kernel: i915 0000:00:02.0: [drm] Found kabylake (device ID 5917) integrated display version 9.00 stepping C0
+Oct 06 11:42:47 mahmoudkarzou kernel: RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+Oct 06 11:42:47 mahmoudkarzou kernel: i915 0000:00:02.0: vgaarb: deactivate vga console
+Oct 06 11:42:47 mahmoudkarzou kernel: i915 0000:00:02.0: vgaarb: VGA decodes changed: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+Oct 06 11:42:47 mahmoudkarzou kernel: i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/kbl_dmc_ver1_04.bin (v1.4)
+Oct 06 11:42:47 mahmoudkarzou kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+Oct 06 11:42:47 mahmoudkarzou kernel: i915 0000:00:02.0: [drm] Registered 3 planes with drm panic
+Oct 06 11:42:47 mahmoudkarzou kernel: [drm] Initialized i915 1.6.0 for 0000:00:02.0 on minor 1
+Oct 06 11:42:47 mahmoudkarzou kernel: fbcon: i915drmfb (fb0) is primary device
+Oct 06 11:42:47 mahmoudkarzou kernel: i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+Oct 06 11:42:48 mahmoudkarzou kernel: snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops intel_audio_component_bind_ops [i915])
+Oct 06 11:42:56 mahmoudkarzou kernel: audit: type=1400 audit(1791276176.101:272): apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=2987 comm="apparmor_parser"
+Oct 06 11:42:56 mahmoudkarzou kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Oct 07 06:33:18 mahmoudkarzou kernel: DMAR: DRHD: handling fault status reg 2
+Oct 07 06:33:18 mahmoudkarzou kernel: DMAR: [INTR-REMAP] Request device [f0:1f.0] fault index 0x50e5 [fault reason 0x25] Blocked a compatibility format interrupt request
+Oct 07 06:33:18 mahmoudkarzou kernel: nvme nvme0: 8/0/0 default/read/poll queues
+Oct 07 06:33:18 mahmoudkarzou kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+Oct 07 09:36:02 mahmoudkarzou kernel: DMAR: DRHD: handling fault status reg 2
+Oct 07 09:36:02 mahmoudkarzou kernel: DMAR: [INTR-REMAP] Request device [f0:1f.0] fault index 0x50c5 [fault reason 0x25] Blocked a compatibility format interrupt request
+Oct 07 09:36:02 mahmoudkarzou kernel: nvme nvme0: 8/0/0 default/read/poll queues
+Oct 07 09:36:03 mahmoudkarzou kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+Oct 07 11:57:00 mahmoudkarzou kernel: nvme nvme0: 8/0/0 default/read/poll queues
+Oct 07 11:57:01 mahmoudkarzou kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+Oct 07 11:57:39 mahmoudkarzou kernel: nvme nvme0: 8/0/0 default/read/poll queues
+Oct 07 11:57:40 mahmoudkarzou kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+Oct 07 11:58:55 mahmoudkarzou kernel: nvme nvme0: 8/0/0 default/read/poll queues
+Oct 07 11:58:56 mahmoudkarzou kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+Oct 07 19:40:15 mahmoudkarzou kernel: nvme nvme0: 8/0/0 default/read/poll queues
+Oct 07 19:40:16 mahmoudkarzou kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+Oct 07 20:01:36 mahmoudkarzou kernel: loop41: detected capacity change from 0 to 159328
